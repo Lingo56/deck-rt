@@ -39,3 +39,17 @@
 
 # debug information files
 *.dwo
+
+# Build folder
+build/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other common artefacts
+*.log
+*.tmp
+*.swp

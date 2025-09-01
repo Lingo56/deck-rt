@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(deck_rt_vulkan)
+find_package(Vulkan REQUIRED)
+add_executable(deck_rt src/main.cpp)
+target_link_libraries(deck_rt Vulkan::Vulkan)
