@@ -53,3 +53,29 @@ Makefile
 *.log
 *.tmp
 *.swp
+
+# Visual Studio workspace folder
+.vs/
+
+# User-specific Visual Studio files
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake build output (if outside 'build/')
+out/
+out/*
+
+# Conan cache and generated files (if you ever commit them)
+conanbuildinfo.*
+conanfile.lock
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Python virtual environments (if used)
+venv/
+.env/
