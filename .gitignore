@@ -79,3 +79,22 @@ Desktop.ini
 # Python virtual environments (if used)
 venv/
 .env/
+
+# Conan build and cache folders
+build/
+conanbuild/
+conanrun/
+conanfile.lock
+conan.lock
+*.conan
+*.conan2
+.conan/
+.conan2/
+# Conan-generated toolchain and generator files
+conan_toolchain.cmake
+CMakePresets.json
+CMakeUserPresets.json
+# Conan package folders (if present)
+p/
+b/
+s/
