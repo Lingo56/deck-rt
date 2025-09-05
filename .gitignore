@@ -1,81 +1,25 @@
-# Prerequisites
-*.d
+#################
+## Cloned folders
+#################
+nvpro_core2/
+/samples/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+##################
+## Build artifacts
+##################
+_bin/
+_install/
+bin_x64/
+downloaded_resources/
+_downloaded_resources
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
-
-# Build folder
+# Developers typically name their CMake build directory one of these:
+cmake_build/
+cmake_build_linux/
+cmake_build_win/
+cmake_build_legacy/
+cmake_built/
 build/
+build_legacy/
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Other common artefacts
-*.log
-*.tmp
-*.swp
-
-# Visual Studio workspace folder
 .vs/
-
-# User-specific Visual Studio files
-*.vcxproj.user
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# CMake build output (if outside 'build/')
-out/
-out/*
-
-# Conan cache and generated files (if you ever commit them)
-conanbuildinfo.*
-conanfile.lock
-
-# Windows specific
-Thumbs.db
-Desktop.ini
-
-# Python virtual environments (if used)
-venv/
-.env/
